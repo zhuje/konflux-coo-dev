@@ -1,0 +1,4 @@
+[submodule "perses-operator"]
+	path = perses-operator
+	url = https://github.com/perses/perses-operator.git
+	branch = release-v0.1
