@@ -1,4 +1,4 @@
 [submodule "perses-operator"]
 	path = perses-operator
 	url = https://github.com/perses/perses-operator.git
-	branch = release-v0.1
+	branch = release-v0.1.0 # TODO: Update branch in perses/perses-operator to "release-0.1"

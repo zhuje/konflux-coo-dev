@@ -3,7 +3,7 @@
 # install mailcap bc its not included in ubi8/go-toolset image 
 # Install mailcap and clean up package manager cache
 # rhel8 comes with packages: "make", "bash"
-FROM brew.registry.redhat.io/rh-osbs/openshift-golang-builder:rhel_8_golang_1.23 AS build-env
+FROM brew.registry.redhat.io/rh-osbs/openshift-golang-builder:rhel_8_golang_1.23 AS build-env 
 USER root
 RUN dnf install -y mailcap && dnf clean all && rm -rf /var/cache/dnf
 
